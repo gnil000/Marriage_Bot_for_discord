@@ -1,14 +1,12 @@
 import disnake
 from disnake.ext import commands
 
-import discordToken
-
 import os
 from dotenv import load_dotenv, find_dotenv
 
 load_dotenv(find_dotenv())
 config = {
-    'token': os.getenv('TOKEN_BOT'),  # discordToken.discord_token,
+    'token': os.getenv('TOKEN_BOT'),
     'prefix': 'meow',
 }
 

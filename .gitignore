@@ -1,2 +1,4 @@
 # The file containing environment .env
 *.env
+databaseSQLite.py
+marriageBot.db
